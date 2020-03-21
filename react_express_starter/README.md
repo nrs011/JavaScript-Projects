@@ -9,6 +9,9 @@ This version does not include Redux
 ## Quick Start
 
 ``` bash
+# install default package.json file if needed
+npm init --yes
+
 # Install dependencies for server
 npm install
 
