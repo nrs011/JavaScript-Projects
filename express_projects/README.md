@@ -18,6 +18,7 @@
 ## Quick Start
 
 ### Installation
+
 ``` bash
 # install default package.json file if needed
 npm init --yes
@@ -27,6 +28,7 @@ npm install
 
 # Run app
 npm start
+```
 
 ## App Info
 
