@@ -1,0 +1,12 @@
+{
+  "name": "react_express_starter_pack",
+  "version": "1.0.0",
+  "description": "> Create full stack apps with React and Express. Run your client and server with a single command.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
