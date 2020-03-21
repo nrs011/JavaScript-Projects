@@ -4,7 +4,7 @@
   "description": "Boilerplate for React and Express",
   "main": "server.js",
   "scripts": {
-    "start": "echo \"Error: no test specified\" && exit 1"
+    "stat": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nimesh Silva",
   "license": "ISC",
