@@ -4,8 +4,13 @@
   "description": "Boilerplate for React and Express",
   "main": "server.js",
   "scripts": {
+    "_comment": "Automatically installs client if needed",
+    "client-install" : "cd client && npm install",
     "start": "node server.js",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "_comment": "Starts the program automatically without terminals",
+    "client": "npm start --prefix client",
+    "dev" : "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Nimesh Silva",
   "license": "ISC",
