@@ -1,5 +1,6 @@
 const express = require('express'); //bringing in a variable called express
 const path = require('path');
+const mongoose = require('mongoose');
 
 //Init App
 const app = express(); //calling it here
