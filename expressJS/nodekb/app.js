@@ -10,8 +10,36 @@ app.set('view engine', 'pug');
 
 //Home Route
 app.get('/', function (req, res) {
+    let articles = [
+        {
+            id: 1,
+            title: 'Article One',
+            author: 'Nimesh Silva',
+            body: 'This is article one'
+        },
+        {
+            id: 2,
+            title: 'Article Two',
+            author: 'Nimesh Silva',
+            body: 'This is article two'
+        },
+        {
+            id: 3,
+            title: 'Article Three',
+            author: 'Nimesh Silva',
+            body: 'This is article three'
+        },
+    ];
     res.render('index', {
-        title: 'Hello'
+        title: 'Articles',
+        articles: articles
+    });
+});
+
+//Add Route
+app.get('/articles/add', function (req, res) {
+    res.render('add_article', {
+        title: 'Add Article'
     });
 });
 
