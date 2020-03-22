@@ -121,13 +121,24 @@ app.post('/articles/edit/:id', function (req, res) {
 
     let query = {_id:req.params.id}
 
-    Article.update(query, article, function (err) {
+    Article.updateMany(query, article, function (err) {
         if (err) {
             console.log(err);
             return;
         } else {
             res.redirect('/');
         }
+    });
+});
+
+app.delete('/article/:id', function (req, res) {
+    let query = {_id:req.params.id}
+
+    Article.deleteMany(query, function (err) {
+        if(err) {
+            console.log(err);
+        }
+        res.send('Success');
     });
 });
 
