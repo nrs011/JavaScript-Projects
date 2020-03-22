@@ -1,6 +1,21 @@
 const express = require('express'); //bringing in a variable called express
 const path = require('path');
 const mongoose = require('mongoose');
+const  bodyParser = require('body-parser');
+//Connect to database
+mongoose.set('useUnifedTopology', true);
+mongoose.connect('mongodb://localhost/nodekb', {useNewUrlParser:true});
+let db = mongoose.connection;
+
+//Check connection
+db.once('opne', function () {
+    console.log('Connected to MongoDB')
+});
+
+//Check for DB errors
+db.on('error', function () {
+    console.log(err);
+});
 
 //Init App
 const app = express(); //calling it here
