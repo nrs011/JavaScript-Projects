@@ -102,6 +102,15 @@ app.post('/articles/add', function (req, res) {
     }
     });
 });
+//Load Edit Form
+app.get('/article/edit/:id', function (req, res) {
+    Article.findById(req.params.id, function (err, article) {
+        res.render('edit_article', {
+            title: 'Edit Article',
+            article: article
+        });
+    });
+});
 
 //Start Server
 app.listen(3000, function () {
