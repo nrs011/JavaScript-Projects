@@ -1,24 +1,20 @@
 const express = require('express');
-const router = express.router();
+const router = express.Router();
 
-//Get Single Article
-router.get('/article/:id', function (req, res) {
-    Article.findById(req.params.id, function (err, article) {
-        res.render('article', {
-            article: article
-        });
-    });
-});
+//Bring in Article Model
+let Article = require('../models/article');
+
+
 
 //Add Route
-router.get('/articles/add', function (req, res) {
+router.get('/add', function (req, res) {
     res.render('add_article', {
         title: 'Add Article'
     });
 });
 
 //Add Submit POST Route
-router.post('/articles/add', function (req, res) {
+router.post('/add', function (req, res) {
     req.checkBody('title','Title is required').notEmpty();
     req.checkBody('author','Author is required').notEmpty();
     req.checkBody('body','Body is required').notEmpty();
@@ -48,7 +44,7 @@ router.post('/articles/add', function (req, res) {
     }
 });
 //Load Edit Form
-router.get('/article/edit/:id', function (req, res) {
+router.get('/edit/:id', function (req, res) {
     Article.findById(req.params.id, function (err, article) {
         res.render('edit_article', {
             title: 'Edit Article',
@@ -58,7 +54,7 @@ router.get('/article/edit/:id', function (req, res) {
 });
 
 //Update Submit POST Route
-router.post('/articles/edit/:id', function (req, res) {
+router.post('/edit/:id', function (req, res) {
     let article ={};
     article.title = req.body.title;
     article.author = req.body.author;
@@ -77,7 +73,8 @@ router.post('/articles/edit/:id', function (req, res) {
     });
 });
 
-router.delete('/article/:id', function (req, res) {
+//Delete Article
+router.delete('/:id', function (req, res) {
     let query = {_id:req.params.id}
 
     Article.deleteMany(query, function (err) {
@@ -87,3 +84,14 @@ router.delete('/article/:id', function (req, res) {
         res.send('Success');
     });
 });
+
+//Get Single Article
+router.get('/:id', function (req, res) {
+    Article.findById(req.params.id, function (err, article) {
+        res.render('article', {
+            article: article
+        });
+    });
+});
+
+module.exports = router;
