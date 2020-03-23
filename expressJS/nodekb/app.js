@@ -23,7 +23,8 @@ db.on('error', function () {
 //Init App
 const app = express(); //calling it here
 
-
+// Bring in Models
+let Article = require('./models/article');
 
 //Load View Engine
 app.set('views', path.join(__dirname, 'views'));
