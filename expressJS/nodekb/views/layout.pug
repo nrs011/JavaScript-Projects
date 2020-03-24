@@ -17,6 +17,7 @@ html
                                 span.sr-only (current)
                         li.nav-item
                             a.nav-link(href='/articles/add') Add Article
+                            <!--Extra lists-->
                         li.nav-item
                             a.nav-link.disabled(href='#', tabindex='-1', aria-disabled='true') Disabled
                         li.nav-item.dropdown
@@ -25,9 +26,20 @@ html
                                 a.dropdown-item(href='#') Action
                                 a.dropdown-item(href='#') Another action
                                 a.dropdown-item(href='#') Something else here
+
                     form.form-inline.my-2.my-lg-0
                         input.form-control.mr-sm-2(type='text', placeholder='Search', aria-label='Search')
                         button.btn.btn-secondary.my-2.my-sm-0(type='submit') Search
+                    ul.nav.navbar-nav.navbar-right
+                        if user
+                            li.nav-item
+                                a.nav-link(href='/users/logout') Logout
+                        else
+                            li.nav-item
+                                a.nav-link(href='/users/register') Register
+                            li.nav-item
+                                a.nav-link(href='/users/login') Login
+
         .container
          != messages('message', locals)
          if errors

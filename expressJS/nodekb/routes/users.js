@@ -32,7 +32,7 @@ router.post('/register', function(req, res){
         res.render('register', {
             errors:errors
         });
-    } else {
+    } else { //If everything works out, it will submit a new user
         let newUser = new User({
             name:name,
             email:email,
@@ -41,7 +41,7 @@ router.post('/register', function(req, res){
         });
 
         bcrypt.genSalt(10, function(err, salt){
-            bcrypt.hash(newUser.password, salt, function(err, hash){
+            bcrypt.hash(newUser.password, salt, function(err, hash){ //Takes the new password, it will be put here, and be compiled into a hash.
                 if(err){
                     console.log(err);
                 }
@@ -51,7 +51,7 @@ router.post('/register', function(req, res){
                         console.log(err);
                         return;
                     } else {
-                        req.flash('success','You are now registered and can log in');
+                        req.flash('success','You are now registered and can log in!');
                         res.redirect('/users/login');
                     }
                 });
