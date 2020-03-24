@@ -15,9 +15,10 @@ html
                             a.nav-link(href='/')
                                 | Home
                                 span.sr-only (current)
-                        li.nav-item
-                            a.nav-link(href='/articles/add') Add Article
-                            <!--Extra lists-->
+                        if user
+                            li.nav-item
+                                a.nav-link(href='/articles/add') Add Article
+                        <!--Extra lists-->
                         li.nav-item
                             a.nav-link.disabled(href='#', tabindex='-1', aria-disabled='true') Disabled
                         li.nav-item.dropdown
