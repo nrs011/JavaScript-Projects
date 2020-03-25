@@ -49,7 +49,7 @@ router.post('/add', function(req, res){
 router.get('/edit/:id', ensureAuthenticated, function(req, res){
     Article.findById(req.params.id, function(err, article){
         if(article.author != req.user._id){
-            req.flash('danger', 'Not Authorized');
+            req.flash('danger', 'Not Authorized')
             return res.redirect('/');
         }
         res.render('edit_article', {
