@@ -37,6 +37,11 @@
     <property name="settings.editor.selected.configurable" value="liveEdit" />
     <property name="ts.external.directory.path" value="C:\Users\nimes\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\201.7223.93\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nimes\WebstormProjects\JavaScript-Projects\TypeScript-Projects\typescript-node\src" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
