@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/strapiTemplate.iml" filepath="$PROJECT_DIR$/.idea/strapiTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/first-project.iml" filepath="$PROJECT_DIR$/.idea/first-project.iml" />
     </modules>
   </component>
 </project>
