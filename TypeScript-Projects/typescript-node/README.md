@@ -1,6 +1,6 @@
 # TypeScript NodeJS Program
 
-> This is a TypeScript application used with React.js.
+> This is a TypeScript application used with Node.js.
 ### Technologies
 
     TypeScript
