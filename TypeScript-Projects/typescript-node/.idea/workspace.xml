@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04266d38-d359-401e-887d-db9f3e533d65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590523193214</updated>
-      <workItem from="1590523194386" duration="419000" />
+      <workItem from="1590523194386" duration="727000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit.">
       <created>1590523256142</created>
@@ -63,16 +63,32 @@
       <option name="project" value="LOCAL" />
       <updated>1590523483929</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Next Commit.">
+      <created>1590523618033</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590523618033</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Next Commit.">
+      <created>1590523693990</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590523693990</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Next Commit.">
+      <created>1590523719211</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590523719211</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/greeter.js" />
-      </list>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -83,13 +99,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="Next Commit." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="323" y="0" key="CommitChangelistDialog2" timestamp="1590523483303">
+    <state x="323" y="0" key="CommitChangelistDialog2" timestamp="1590523718530">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="323" y="0" key="CommitChangelistDialog2/-2560.306.1280.700/0.0.1440.860@0.0.1440.860" timestamp="1590523483303" />
-    <state x="379" y="163" key="Vcs.Push.Dialog.v2" timestamp="1590523485118">
+    <state x="323" y="0" key="CommitChangelistDialog2/-2560.306.1280.700/0.0.1440.860@0.0.1440.860" timestamp="1590523718530" />
+    <state x="379" y="163" key="Vcs.Push.Dialog.v2" timestamp="1590523720582">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="379" y="163" key="Vcs.Push.Dialog.v2/-2560.306.1280.700/0.0.1440.860@0.0.1440.860" timestamp="1590523485118" />
+    <state x="379" y="163" key="Vcs.Push.Dialog.v2/-2560.306.1280.700/0.0.1440.860@0.0.1440.860" timestamp="1590523720582" />
   </component>
 </project>
