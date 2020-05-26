@@ -1,14 +1,10 @@
 # TypeScript NodeJS Program
-
 > This is a TypeScript application used with Node.js.
 ### Technologies
 
     TypeScript
     Node.js
 
-#### Version
-
-    0.0.1
 ## Quick Start
 
 ### Installation
@@ -30,7 +26,3 @@ npm start
 
 Nimesh Silva
 [Nimesh Silva Portfolio](https://nimeshsilvaportfolio.netlify.com/)
-
-### Version
-
-1.0.0
