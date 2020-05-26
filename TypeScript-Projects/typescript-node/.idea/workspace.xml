@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04266d38-d359-401e-887d-db9f3e533d65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +13,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="tsconfig.json" />
       </list>
     </option>
   </component>
@@ -53,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590523193214</updated>
-      <workItem from="1590523194386" duration="1776000" />
+      <workItem from="1590523194386" duration="2090000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit.">
       <created>1590523256142</created>
@@ -104,7 +104,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590524180939</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Next Commit.">
+      <created>1590525213743</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590525213743</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Next Commit.">
+      <created>1590525292268</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1590525292268</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,13 +133,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="Next Commit." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="323" y="0" key="CommitChangelistDialog2" timestamp="1590524180284">
+    <state x="323" y="0" key="CommitChangelistDialog2" timestamp="1590525291659">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="323" y="0" key="CommitChangelistDialog2/-2560.306.1280.700/0.0.1440.860@0.0.1440.860" timestamp="1590524180284" />
-    <state x="379" y="163" key="Vcs.Push.Dialog.v2" timestamp="1590524182021">
+    <state x="323" y="0" key="CommitChangelistDialog2/-2560.306.1280.700/0.0.1440.860@0.0.1440.860" timestamp="1590525291659" />
+    <state x="379" y="163" key="Vcs.Push.Dialog.v2" timestamp="1590525293777">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="379" y="163" key="Vcs.Push.Dialog.v2/-2560.306.1280.700/0.0.1440.860@0.0.1440.860" timestamp="1590524182021" />
+    <state x="379" y="163" key="Vcs.Push.Dialog.v2/-2560.306.1280.700/0.0.1440.860@0.0.1440.860" timestamp="1590525293777" />
   </component>
 </project>
